@@ -139,7 +139,7 @@ I scaled `backend-deployment` from 2 to 4 replicas with `kubectl scale deploymen
 - `screenshots/kubectl-get-nodes.png` — `kubectl get nodes` showing `Ready`
 - `screenshots/backend-deployed.png` — `kubectl apply -f manifests/backend-deployment.yaml `
 - `screenshots/backend-service.png` — `kubectl apply -f manifests/backend-service.yaml`, `kubectl get services`, `kubectl describe service backend-service`
-- `screenshots/frontend-deployments-and-pod.png` — ``kubectl apply -f manifests/frontend-deployment.yaml`, `kubectl get deployments`, `kubectl get pods `
+- `screenshots/frontend-deployments-and-pod.png` — `kubectl apply -f manifests/frontend-deployment.yaml`, `kubectl get deployments`, `kubectl get pods`
 - `screenshots/frontend-service.png` — Nginx welcome page via `frontend-service`
 - `screenshots/test-client-pod.png` — `wget` output from inside `test-client`
 - `screenshots/selector-app=wrong.png`
